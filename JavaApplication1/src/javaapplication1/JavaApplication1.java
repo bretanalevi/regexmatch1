@@ -8,6 +8,7 @@ public class JavaApplication1 {
    
     public static boolean isTrue(String str)
        {
+           
        return str.matches("[tT]true");
        }
     public static boolean containsFalse(String str)
